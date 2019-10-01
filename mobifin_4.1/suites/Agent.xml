@@ -1,0 +1,328 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+
+<suite
+	name="MobiFin 4.1.0 - Admin Portal - Agent - Business And CRUD Single Data"
+	verbose="10" parallel="false" thread-count="1">
+
+	<listeners>
+		<listener
+			class-name='com.panamax.init.CustomizedEmailableReport' />
+	</listeners>
+
+	<parameter name="browserType" value="chrome" />
+	<parameter name="appURL"
+		value="https://admin-coltoqa.panamaxil.com" />
+
+	<test name="MobiFin 4.1.0 : Agent - Add Tree">
+		<classes>
+			<class name="com.panamax.testcases.AgentTree">
+				<methods>
+					<include name="addTree" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="MobiFin 4.1.0 : Agent - Edit Tree">
+		<classes>
+			<class name="com.panamax.testcases.AgentTree">
+				<methods>
+					<include name="editTree" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="MobiFin 4.1.0 : Agent - Delete Tree">
+		<classes>
+			<class name="com.panamax.testcases.AgentTree">
+				<methods>
+					<include name="deleteTree" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="MobiFin 4.1.0 : Agent - Sort Tree">
+		<classes>
+			<class name="com.panamax.testcases.AgentTree">
+				<methods>
+					<include name="sortTree" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="MobiFin 4.1.0 : Agent - Add Profile">
+		<classes>
+			<class name="com.panamax.testcases.AgentProfile">
+				<methods>
+					<include name="addProfile" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="MobiFin 4.1.0 : Agent - Edit Profile">
+		<classes>
+			<class name="com.panamax.testcases.AgentProfile">
+				<methods>
+					<include name="editProfile" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="MobiFin 4.1.0 : Agent - Delete Profile">
+		<classes>
+			<class name="com.panamax.testcases.AgentProfile">
+				<methods>
+					<include name="deleteProfile" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="MobiFin 4.1.0 : Agent - Sort Profile">
+		<classes>
+			<class name="com.panamax.testcases.AgentProfile">
+				<methods>
+					<include name="sortProfile" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="MobiFin 4.1.0 : Agent - Active Matrix">
+		<classes>
+			<class name="com.panamax.testcases.AgentMatrix">
+				<methods>
+					<include name="editAgentMatrix" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="MobiFin 4.1.0 : Agent - Sort Matrix">
+		<classes>
+			<class name="com.panamax.testcases.AgentMatrix">
+				<methods>
+					<include name="sortMatrix" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="MobiFin 4.1.0 : Agent - Add Onboard User">
+		<classes>
+			<class name="com.panamax.testcases.AgentOnboarding">
+				<methods>
+					<include name="addOnboarding" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="MobiFin 4.1.0 : Agent - Edit Onboard User">
+		<classes>
+			<class name="com.panamax.testcases.AgentOnboarding">
+				<methods>
+					<include name="editOnboarding" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="MobiFin 4.1.0 : Agent - Delete Onboard User">
+		<classes>
+			<class name="com.panamax.testcases.AgentOnboarding">
+				<methods>
+					<include name="deleteOnboarding" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="MobiFin 4.1.0 : Agent - Sort Onboard User">
+		<classes>
+			<class name="com.panamax.testcases.AgentOnboarding">
+				<methods>
+					<include name="sortOnboarding" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Agent - Add Branch View">
+		<classes>
+			<class name="com.panamax.testcases.AgentBranchView">
+				<methods>
+					<include name="addBranchView" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Agent - Edit Branch View">
+		<classes>
+			<class name="com.panamax.testcases.AgentBranchView">
+				<methods>
+					<include name="editBranchView" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Mobifin 4.1.0 : Agent - Add Assistant Onboarding">
+		<classes>
+			<class name="com.panamax.testcases.AgentAssistantOnboarding">
+				<methods>
+					<include name="addAssistantOnboarding" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Agent - Edit Assistant Onboarding">
+		<classes>
+			<class name="com.panamax.testcases.AgentAssistantOnboarding">
+				<methods>
+					<include name="editAssistantOnboarding" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Agent - Delete Assistant Onboarding">
+		<classes>
+			<class name="com.panamax.testcases.AgentAssistantOnboarding">
+				<methods>
+					<include name="deleteAssistantOnboarding" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Agent - Sort Assistant Onboarding">
+		<classes>
+			<class name="com.panamax.testcases.AgentAssistantOnboarding">
+				<methods>
+					<include name="sortAssistantOnboarding" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="MobiFin 4.1.0 : Agent - Add External Threshold">
+		<classes>
+			<class name="com.panamax.testcases.AgentThresholdExternal">
+				<methods>
+					<include name="addAgentThresholdExternal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Test Scenario : Agent - Edit External Threshold">
+		<classes>
+			<class name="com.panamax.testcases.AgentThresholdExternal">
+				<methods>
+					<include name="editAgentThresholdExternal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Test Scenario : Agent - Delete External Threshold">
+		<classes>
+			<class name="com.panamax.testcases.AgentThresholdExternal">
+				<methods>
+					<include name="deleteAgentThresholdExternal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Test Scenario : Agent - Sort External Threshold">
+		<classes>
+			<class name="com.panamax.testcases.AgentThresholdExternal">
+				<methods>
+					<include name="sortExternalThreshold" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="MobiFin 4.1.0 : Agent - Add Internal Threshold">
+		<classes>
+			<class name="com.panamax.testcases.AgentThresholdInternal">
+				<methods>
+					<include name="addAgentThresholdInternal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Test Scenario : Agent - Edit Internal Threshold">
+		<classes>
+			<class name="com.panamax.testcases.AgentThresholdInternal">
+				<methods>
+					<include name="editAgentThresholdInternal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Test Scenario : Agent - Delete Internal Threshold">
+		<classes>
+			<class name="com.panamax.testcases.AgentThresholdInternal">
+				<methods>
+					<include name="deleteAgentThresholdInternal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Test Scenario : Agent - Sort Internal Threshold">
+		<classes>
+			<class name="com.panamax.testcases.AgentThresholdInternal">
+				<methods>
+					<include name="sortInternalThreshold" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Test Scenario : Agent Report Search TransactionDetail">
+		<classes>
+			<class name="com.panamax.testcases.AgentReportTransactionDetail" />
+		</classes>
+	</test> 
+	<test name="Test Scenario : Agent Report Search TransactionSummary">
+		<classes>
+			<class name="com.panamax.testcases.AgentReportTransactionSummary" />
+		</classes>
+	</test>
+	<test name="Test Scenario : Agent Report Search TransactionPerformance">
+		<classes>
+			<class name="com.panamax.testcases.AgentReportTransactionPerformance" />
+		</classes>
+	</test>
+	<test name="Test Scenario : Agent Report Search TransactionDrilldown">
+		<classes>
+			<class name="com.panamax.testcases.AgentReportTransactionDrilldown" />
+		</classes>
+	</test>
+	<test name="Test Scenario : Agent Report Search OnboardingDetail">
+		<classes>
+			<class name="com.panamax.testcases.AgentReportOnboardingDetail" />
+		</classes>
+	</test> 
+	<test name="Test Scenario : Agent Report Search Assistant Onboarding Detail">
+		<classes>
+			<class name="com.panamax.testcases.AgentReportAssistantOnboardingDetail" />
+		</classes>
+	</test>
+	<test name="Test Scenario : Agent Report Search OnboardingSummary">
+		<classes>
+			<class name="com.panamax.testcases.AgentReportOnboardingSummary" />
+		</classes>
+	</test>
+	 <test name="Test Scenario : Agent Report Search OnboardingPerformance">
+		<classes>
+			<class name="com.panamax.testcases.AgentReportOnboardingPerformance" />
+		</classes>
+	</test> 
+	<test
+		name="Test Scenario : Agent - Agent Onboarding Drill Down Report">
+		<classes>
+			<class
+				name="com.panamax.testcases.AgentReportOnboardingDrilldown" />
+		</classes>
+	</test>
+	<test name="Test Scenario : Agent Report Search ActivityReport">
+			<classes>
+				<class name="com.panamax.testcases.AgentReportActivityReport" />
+			</classes>
+	</test>
+
+
+
+
+
+</suite> 
+	

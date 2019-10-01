@@ -1,0 +1,1 @@
+{"uuid":"2fd3ddc0-0dae-4699-a1ee-2518a3aef8a5","name":"MobiFin 4.1.0 - Admin Portal - Settings Module","start":1567404227580,"stop":1567404580664,"children":["2e613ced-5468-4fb3-947b-39e9413ad602"],"afters":[{"name":"finalizeExecution","status":"passed","stage":"finished","description":"","start":1567404574399,"stop":1567404580636}]}

@@ -1,0 +1,185 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+
+<suite name="MobiFin 4.1.0 - Admin Portal - Settings Module"
+	verbose="10" parallel="false" thread-count="1">
+
+	<listeners>
+		<listener class-name='com.panamax.init.CustomizedEmailableReport' />
+		<listener class-name='com.panamax.init.TestListener' />
+	</listeners>
+	<parameter name="browserType" value="chrome" />
+	<parameter name="appURL" value="http://admin-coltoqa.panamaxil.com" />
+
+	<test name="MobiFin 4.1.0 - Settings">
+		<classes>
+			<class name="com.panamax.testcases.SettingsGISMasterCountry">
+				<methods>
+					<include name="addCountry" />
+<!-- 					<include name="editCountry" />
+					<include name="deleteCountry" /> -->
+					<!-- <include name="sortCountry" /> -->
+				</methods>
+			</class>
+			<!-- <class name="com.panamax.testcases.SettingsGISMasterState">
+				<methods>
+					<include name="addState" />
+					<include name="editState" />
+					<include name ="deleteState" />
+					<include name="sortState" />
+				</methods>
+			</class> -->
+		<!-- 	<class name="com.panamax.testcases.SettingsGISMasterMapcode">
+				<methods>
+					<include name="addMapcode" />
+					<include name="editMapcode" />
+					<include name="deleteMapcode" />
+					<include name="sortMapcode" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.SettingsDKYCMasterCategory">
+				<methods>
+					<include name="addCategory" />
+					<include name="editCategory" />
+					<include name="deleteCategory" />
+					<include name="sortDKYCCategory" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.SettingsDKYCMasterField">
+				<methods>
+					<include name="addField" />
+					<include name="editField" />
+					<include name="deleteField" />
+					<include name="sortDKYCField" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.SettingsUserManagementDepartment">
+				<methods>
+					<include name="addDepartment" />
+					<include name="editDepartment" />
+					<include name="deleteDepartment" />
+					<include name="sortDepartment" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.SettingsUserManagementRole">
+				<methods>
+					<include name="addRole" />
+					<include name="editRole" />
+					<include name="deleteRole" />
+					<include name="sortRole" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.SettingsUserManagementDashboard">
+				<methods>
+					<include name="addDashboard" />
+					<include name="editDashboard" />
+					<include name="deleteDashboard" />
+					<include name="sortDashboard" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.SettingsUserManagementUser">
+				<methods>
+					<include name="addUser" />
+					<include name="editUser" />
+					<include name="deleteUser" />
+					<include name="sortUser" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.SettingsAlertSMSAccount">
+				<methods>
+					<include name="addSMSAccount" />
+					<include name="editSMSAccount" />
+					<include name="deleteSMSAccount" />
+					<include name="sortSMSAccount" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.SettingsAlertEmailAccount">
+				<methods>
+					<include name="addEmailAccount" />
+					<include name="editEmailAccount" />
+					<include name="deleteEmailAccount" />
+					<include name="sortEmailAccount" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.SettingsAlertSMSAlert">
+				<methods>
+					<include name="addAlertSMSAlert" />
+					<include name="editAlertSMSAlert" />
+					<include name="deleteAlertSMSAlert" />
+					<include name="sortAlertSMSAlert" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.SettingsAlertEmailTemplate">
+				<methods>
+					<include name="addEmailTemplate" />
+					<include name="editEmailTemplate" />
+					<include name="deleteEmailTemplate" />
+					<include name="sortEmailTemplate" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.SettingsAlertSMSTemplate">
+				<methods>
+					<include name="addSMSTemplate" />
+					<include name="editSMSTemplate" />
+					<include name="deleteSMSTemplate" />
+					<include name="sortSMSTemplate" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.SettingsSystemPreferenceTag">
+				<methods>
+					<include name="addTag" />
+					<include name="editTag" />
+					<include name="sortTag" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.SettingsSystemPreferenceOperationUser">
+				<methods>
+					<include name="addOperationUser" />
+					<include name="editOperationUser" />
+					<include name="deleteOperationUser" />
+					<include name="sortOperationUser" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.SettingsSystemPreferenceRetailSegment">
+				<methods>
+					<include name="addRetailSegment" />
+					<include name="editRetailSegment" />
+					<include name="deleteRetailSegment" />
+					<include name="sortRetailSegment" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.SettingsSystemPreferenceBlockPhone">
+				<methods>
+					<include name="addBlockPhone" />
+					<include name="editBlockPhone" />
+					<include name="deleteBlockPhone" />
+					<include name="sortBlockPhone" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.SettingsSystemPreferenceBlockIDNumber">
+				<methods>
+					<include name="addBlockIDNumber" />
+					<include name="editBlockIDNumber" />
+					<include name="deleteBlockIDNumber" />
+					<include name="sortBlockIDNumber" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.SettingsToolsImageUploader">
+				<methods>
+					<include name="addImageUploader" />
+					<include name="editImageUploader" />
+					<include name="deleteImageUploader" />
+					<include name="sortImageUploader" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.SettingsToolsExchangeRate">
+				<methods>
+					<include name="addExchangeRate" />
+					<include name="editExchangeRate" />
+					<include name="sortExchangeRate" />
+				</methods>
+			</class> -->
+		</classes>
+	</test>
+</suite>
+	

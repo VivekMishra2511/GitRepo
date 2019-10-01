@@ -1,0 +1,208 @@
+{
+  "3572d566cecca08de607788f275950ae" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "9a5519cd3e8cf43d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567405927421,
+        "stop" : 1567405966213,
+        "duration" : 38792
+      }
+    }, {
+      "uid" : "644578b9202ac6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567405927421,
+        "stop" : 1567405966213,
+        "duration" : 38792
+      }
+    }, {
+      "uid" : "a82f410f33060f5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567405269294,
+        "stop" : 1567405305996,
+        "duration" : 36702
+      }
+    }, {
+      "uid" : "fdb34525e846fcb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567404931528,
+        "stop" : 1567404968108,
+        "duration" : 36580
+      }
+    }, {
+      "uid" : "b021f659d194579b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567404402212,
+        "stop" : 1567404441383,
+        "duration" : 39171
+      }
+    } ]
+  },
+  "1acbce8ff0df5e52ed10348738dfef89" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "43fab80e4443875e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567405847600,
+        "stop" : 1567405891769,
+        "duration" : 44169
+      }
+    }, {
+      "uid" : "d050265f13fee17c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567405847600,
+        "stop" : 1567405891769,
+        "duration" : 44169
+      }
+    }, {
+      "uid" : "90f813c804e714a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567405175148,
+        "stop" : 1567405218805,
+        "duration" : 43657
+      }
+    }, {
+      "uid" : "46429ef9700fbe81",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1567404879661,
+        "stop" : 1567404889640,
+        "duration" : 9979
+      }
+    }, {
+      "uid" : "81d4cd85c80c54bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567404289540,
+        "stop" : 1567404341591,
+        "duration" : 52051
+      }
+    } ]
+  },
+  "7d2784e1be6f371b76489bfaf75f3854" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "ced0fa2a7ca6c49b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567406056053,
+        "stop" : 1567406094985,
+        "duration" : 38932
+      }
+    }, {
+      "uid" : "5d892556769fce77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567406056053,
+        "stop" : 1567406094985,
+        "duration" : 38932
+      }
+    }, {
+      "uid" : "644e48f3bbdf8aad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567405399171,
+        "stop" : 1567405435232,
+        "duration" : 36061
+      }
+    }, {
+      "uid" : "d28e9de540b68d08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567404980033,
+        "stop" : 1567405017973,
+        "duration" : 37940
+      }
+    }, {
+      "uid" : "96fbe2bc5556af4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567404533915,
+        "stop" : 1567404573148,
+        "duration" : 39233
+      }
+    } ]
+  },
+  "c74760d4e886e647253dfa942d8a8e6d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "4bb21a0525c3c581",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567405966556,
+        "stop" : 1567406054680,
+        "duration" : 88124
+      }
+    }, {
+      "uid" : "e9767b51c5a07bd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567405966556,
+        "stop" : 1567406054680,
+        "duration" : 88124
+      }
+    }, {
+      "uid" : "27c4adf232f37d9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567405306335,
+        "stop" : 1567405397755,
+        "duration" : 91420
+      }
+    }, {
+      "uid" : "ac62fda1f469a483",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1567404968471,
+        "stop" : 1567404978309,
+        "duration" : 9838
+      }
+    }, {
+      "uid" : "b1aeac60ccf5bec9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567404441694,
+        "stop" : 1567404532526,
+        "duration" : 90832
+      }
+    } ]
+  }
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+
+<suite name="MobiFin 4.1.0 - Admin Portal" verbose="10" parallel="false"
+	thread-count="1">
+
+	<listeners>
+		<listener class-name='com.panamax.init.CustomizedEmailableReport' />
+	</listeners>
+
+	<suite-files>
+		<!-- <suite-file path="Default.xml" /> -->
+		<suite-file path="SettingsParllel.xml" />
+		<suite-file path="TAParllel.xml" />
+		<suite-file path="ProductParllel.xml" />
+	</suite-files>
+</suite>

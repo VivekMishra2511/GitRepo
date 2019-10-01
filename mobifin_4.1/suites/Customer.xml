@@ -1,0 +1,238 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+
+<suite
+	name="MobiFin 4.1.0 - Admin Portal - Customer - Business And CRUD Single Data"
+	verbose="10" parallel="false" thread-count="1">
+
+	<listeners>
+		<listener
+			class-name='com.panamax.init.CustomizedEmailableReport' />
+	</listeners>
+	<parameter name="browserType" value="chrome" />
+	<parameter name="appURL"
+		value="https://admin-coltoqa.panamaxil.com" />
+
+	<test name="Mobifin 4.1.0 : Customer - add Profile">
+		<classes>
+			<class name="com.panamax.testcases.CustomerProfile">
+				<methods>
+					<include name="addProfile" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Customer - edit Profile">
+		<classes>
+			<class name="com.panamax.testcases.CustomerProfile">
+				<methods>
+					<include name="editProfile" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Customer - delete Profile">
+		<classes>
+			<class name="com.panamax.testcases.CustomerProfile">
+				<methods>
+					<include name="deleteProfile" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Customer - Sort Profile">
+		<classes>
+			<class name="com.panamax.testcases.CustomerProfile">
+				<methods>
+					<include name="sortProfile" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin-410 External edit CustomerMatrix">
+		<classes>
+			<class name="com.panamax.testcases.CustomerMatrix">
+				<methods>
+					<include name="editCustomerMatrix" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin-410 External Sort CustomerMatrix">
+		<classes>
+			<class name="com.panamax.testcases.CustomerMatrix">
+				<methods>
+					<include name="sortMatrix" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin-410 External  add Customer Threshold External">
+		<classes>
+			<class name="com.panamax.testcases.CustomerThresholdExternal">
+				<methods>
+					<include name="addCustomerThresholdExternal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="Mobifin-410 External  edit Customer Threshold External">
+		<classes>
+			<class name="com.panamax.testcases.CustomerThresholdExternal">
+				<methods>
+					<include name="editCustomerThresholdExternal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="Mobifin-410 External  delete Customer Threshold External">
+		<classes>
+			<class name="com.panamax.testcases.CustomerThresholdExternal">
+				<methods>
+					<include name="deleteCustomerThresholdExternal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="Mobifin-410 External  Sort Customer Threshold External">
+		<classes>
+			<class name="com.panamax.testcases.CustomerThresholdExternal">
+				<methods>
+					<include name="sortExternalThreshold" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : add Customer Threshold Internal">
+		<classes>
+			<class name="com.panamax.testcases.CustomerThresholdInternal">
+				<methods>
+					<include name="addCustomerThresholdInternal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : edit Customer Threshold Internal">
+		<classes>
+			<class name="com.panamax.testcases.CustomerThresholdInternal">
+				<methods>
+					<include name="editCustomerThresholdInternal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : delete Customer Threshold Internal">
+		<classes>
+			<class name="com.panamax.testcases.CustomerThresholdInternal">
+				<methods>
+					<include name="deleteCustomerThresholdInternal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Sort Customer Threshold Internal">
+		<classes>
+			<class name="com.panamax.testcases.CustomerThresholdInternal">
+				<methods>
+					<include name="sortInternalThreshold" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Customer Add Onboarding">
+		<classes>
+			<class name="com.panamax.testcases.CustomerOnboarding">
+				<methods>
+					<include name="addOnboarding" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Customer Edit Onboarding">
+		<classes>
+			<class name="com.panamax.testcases.CustomerOnboarding">
+				<methods>
+					<include name="editOnboarding" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Customer Delete Onboarding">
+		<classes>
+			<class name="com.panamax.testcases.CustomerOnboarding">
+				<methods>
+					<include name="deleteOnboarding" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Customer Sort Onboarding">
+		<classes>
+			<class name="com.panamax.testcases.CustomerOnboarding">
+				<methods>
+					<include name="sortOnboarding" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Customer Onboarding Drill Down Report">
+		<classes>
+			<class
+				name="com.panamax.testcases.CustomerReportOnboardingDrilldown" />
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Customer Onboarding Detail Report">
+		<classes>
+			<class
+				name="com.panamax.testcases.CustomerReportOnboardingDetail" />
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 : Customer Onboarding Performance Report">
+		<classes>
+			<class
+				name="com.panamax.testcases.CustomerReportOnboardingPerformance" />
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Customer Onboarding Summary Report">
+		<classes>
+			<class
+				name="com.panamax.testcases.CustomerReportOnboardingSummary" />
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Customer Transaction Detail Report">
+		<classes>
+			<class
+				name="com.panamax.testcases.CustomerReportTransactionDetail" />
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 : Customer Transaction Drill Down Report">
+		<classes>
+			<class
+				name="com.panamax.testcases.CustomerReportTransactionDrilldown" />
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 : Customer Transaction Drill Down Perfotmance Report">
+		<classes>
+			<class
+				name="com.panamax.testcases.CustomerReportTransactionPerformance" />
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Customer Transaction Summary Report">
+		<classes>
+			<class
+				name="com.panamax.testcases.CustomerReportTransactionSummary" />
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Customer Activity Report">
+		<classes>
+			<class
+				name="com.panamax.testcases.CustomerReportActivityReport" />
+		</classes>
+	</test>
+</suite>

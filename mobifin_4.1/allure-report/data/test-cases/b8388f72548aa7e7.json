@@ -1,0 +1,353 @@
+{
+  "uid" : "b8388f72548aa7e7",
+  "name" : "Id: DeleteAssistantOnboarding, Author: Dishant Doshi",
+  "fullName" : "com.panamax.testcases.AgentAssistantOnboarding.deleteAssistantOnboarding",
+  "historyId" : "1acbce8ff0df5e52ed10348738dfef89",
+  "time" : {
+    "start" : 1567405175148,
+    "stop" : 1567405218805,
+    "duration" : 43657
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initializeSetupInit",
+    "time" : {
+      "start" : 1567405129567,
+      "stop" : 1567405174171,
+      "duration" : 44604
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Sent text in UserName: admin.",
+      "time" : {
+        "start" : 1567405156251,
+        "stop" : 1567405156259,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Sent text in UserName: admin"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Sent text in userkey: Onlyqa@1234.",
+      "time" : {
+        "start" : 1567405157155,
+        "stop" : 1567405157155,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Sent text in userkey: Onlyqa@1234"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Clicked on Login.",
+      "time" : {
+        "start" : 1567405174167,
+        "stop" : 1567405174167,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on Login"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Clicked on Agent.",
+      "time" : {
+        "start" : 1567405177536,
+        "stop" : 1567405177536,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on Agent"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Clicked on Assistant Onboarding.",
+      "time" : {
+        "start" : 1567405179864,
+        "stop" : 1567405179864,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on Assistant Onboarding"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Clicked on AutomationTest.",
+      "time" : {
+        "start" : 1567405187362,
+        "stop" : 1567405187362,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on AutomationTest"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Clicked on search-frm-filter.",
+      "time" : {
+        "start" : 1567405192685,
+        "stop" : 1567405192685,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on search-frm-filter"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Clicked on Clear.",
+      "time" : {
+        "start" : 1567405198148,
+        "stop" : 1567405198152,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on Clear"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Clicked on search-frm-filter.",
+      "time" : {
+        "start" : 1567405200540,
+        "stop" : 1567405200540,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on search-frm-filter"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Sent text in txtPhone: 9899769557.",
+      "time" : {
+        "start" : 1567405202383,
+        "stop" : 1567405202383,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Sent text in txtPhone: 9899769557"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Sent text in txtEmail: aijii.ahohautomation@mailinator.com.",
+      "time" : {
+        "start" : 1567405204559,
+        "stop" : 1567405204559,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Sent text in txtEmail: aijii.ahohautomation@mailinator.com"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Clicked on Search.",
+      "time" : {
+        "start" : 1567405212826,
+        "stop" : 1567405212826,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on Search"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1567405397803,
+      "stop" : 1567405398847,
+      "duration" : 1044
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1567405219048,
+      "stop" : 1567405219048,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "finalizeExecution",
+    "time" : {
+      "start" : 1567405436459,
+      "stop" : 1567405442442,
+      "duration" : 5983
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.panamax.testcases.AgentAssistantOnboarding"
+  }, {
+    "name" : "testClass",
+    "value" : "com.panamax.testcases.AgentAssistantOnboarding"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteAssistantOnboarding"
+  }, {
+    "name" : "parentSuite",
+    "value" : "MobiFin 4.1.0 - Admin Portal - Settings Module"
+  }, {
+    "name" : "suite",
+    "value" : "MobiFin 4.1.0 - Settings"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.panamax.testcases.AgentAssistantOnboarding"
+  }, {
+    "name" : "host",
+    "value" : "PIL-AHD-LPT219"
+  }, {
+    "name" : "thread",
+    "value" : "2848@PIL-AHD-LPT219.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "appURL",
+    "value" : "http://admin-coltoqa.panamaxil.com"
+  }, {
+    "name" : "arg0",
+    "value" : "{ParentProfile=AutomationTest, TreeName=Automation Agent Tree, ProfileName=Automation Agent Profile 1, Phone=9899769557, Email=aijii.ahohautomation@mailinator.com, Status=Active, FirstName=AutomationAhoh, LastName=AutomationAijii}"
+  }, {
+    "name" : "browserType",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8388f72548aa7e7.json",
+  "parameterValues" : [ "http://admin-coltoqa.panamaxil.com", "{ParentProfile=AutomationTest, TreeName=Automation Agent Tree, ProfileName=Automation Agent Profile 1, Phone=9899769557, Email=aijii.ahohautomation@mailinator.com, Status=Active, FirstName=AutomationAhoh, LastName=AutomationAijii}", "chrome" ]
+}

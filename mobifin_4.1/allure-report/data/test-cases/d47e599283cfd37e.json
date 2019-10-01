@@ -1,0 +1,263 @@
+{
+  "uid" : "d47e599283cfd37e",
+  "name" : "Id: SortAssistantOnboarding, Author: Dishant Doshi",
+  "fullName" : "com.panamax.testcases.AgentAssistantOnboarding.sortAssistantOnboarding",
+  "historyId" : "c74760d4e886e647253dfa942d8a8e6d",
+  "time" : {
+    "start" : 1567405306335,
+    "stop" : 1567405397755,
+    "duration" : 91420
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initializeSetupInit",
+    "time" : {
+      "start" : 1567405129567,
+      "stop" : 1567405174171,
+      "duration" : 44604
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Sent text in UserName: admin.",
+      "time" : {
+        "start" : 1567405156251,
+        "stop" : 1567405156259,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Sent text in UserName: admin"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Sent text in userkey: Onlyqa@1234.",
+      "time" : {
+        "start" : 1567405157155,
+        "stop" : 1567405157155,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Sent text in userkey: Onlyqa@1234"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Clicked on Login.",
+      "time" : {
+        "start" : 1567405174167,
+        "stop" : 1567405174167,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on Login"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Clicked on AutomationTest.",
+      "time" : {
+        "start" : 1567405309730,
+        "stop" : 1567405309730,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on AutomationTest"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Clicked on fa fa-gear fs14.",
+      "time" : {
+        "start" : 1567405315313,
+        "stop" : 1567405315313,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on fa fa-gear fs14"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Clicked on btnSave.",
+      "time" : {
+        "start" : 1567405320780,
+        "stop" : 1567405320780,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on btnSave"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Clicked on Assistant Name.",
+      "time" : {
+        "start" : 1567405363210,
+        "stop" : 1567405363210,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on Assistant Name"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1567405397803,
+      "stop" : 1567405398847,
+      "duration" : 1044
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1567405397782,
+      "stop" : 1567405397782,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "finalizeExecution",
+    "time" : {
+      "start" : 1567405436459,
+      "stop" : 1567405442442,
+      "duration" : 5983
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.panamax.testcases.AgentAssistantOnboarding"
+  }, {
+    "name" : "testClass",
+    "value" : "com.panamax.testcases.AgentAssistantOnboarding"
+  }, {
+    "name" : "testMethod",
+    "value" : "sortAssistantOnboarding"
+  }, {
+    "name" : "parentSuite",
+    "value" : "MobiFin 4.1.0 - Admin Portal - Settings Module"
+  }, {
+    "name" : "suite",
+    "value" : "MobiFin 4.1.0 - Settings"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.panamax.testcases.AgentAssistantOnboarding"
+  }, {
+    "name" : "host",
+    "value" : "PIL-AHD-LPT219"
+  }, {
+    "name" : "thread",
+    "value" : "2848@PIL-AHD-LPT219.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "appURL",
+    "value" : "http://admin-coltoqa.panamaxil.com"
+  }, {
+    "name" : "arg0",
+    "value" : "{ParentProfile=AutomationTest, ColumnName=Assistant Name, Order=Asc, UniqueColumn=Sr No}"
+  }, {
+    "name" : "browserType",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d47e599283cfd37e.json",
+  "parameterValues" : [ "http://admin-coltoqa.panamaxil.com", "{ParentProfile=AutomationTest, ColumnName=Assistant Name, Order=Asc, UniqueColumn=Sr No}", "chrome" ]
+}

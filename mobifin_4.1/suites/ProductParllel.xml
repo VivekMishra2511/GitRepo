@@ -1,0 +1,73 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+
+<suite name="MobiFin 4.1.0 - Admin Portal - Product Module"
+	verbose="10" parallel="false" thread-count="1">
+
+	<listeners>
+		<listener class-name='com.panamax.init.CustomizedEmailableReport' />
+	</listeners>
+	<parameter name="browserType" value="chrome" />
+	<parameter name="appURL" value="http://admin-coltoqa.panamaxil.com" />
+
+	<test name="MobiFin 4.1.0 - Product">
+		<classes>
+			<class name="com.panamax.testcases.ProductExternalVendorIntegration">
+				<methods>
+					<include name="addVendorIntegration" />
+					<include name="editVendorIntegration" />
+					<include name="deleteVendorIntegration" />
+					<include name="sortVendorIntegration" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.ProductExternalVendorProductManager">
+				<methods>
+					<include name="addVendorProductManager" />
+					<include name="editVendorProductManager" />
+					<include name="deleteVendorProductManager" />
+					<include name="sortVendorProductManager" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.ProductExternalProductsOperator">
+				<methods>
+					<include name="addOperator" />
+					<include name="editOperator" />
+					<include name="deleteOperator" />
+					<include name="sortOperator" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.ProductTaxation">
+				<methods>
+					<include name="addTaxation" />
+					<include name="editTaxation" />
+					<include name="sortTaxation" />
+					<include name="deleteTaxation" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.ProductExternalProductManager">
+				<methods>
+					<include name="addProductManager" />
+					<include name="editProductManager" />
+					<include name="deleteProductManager" />
+					<include name="sortProductManager" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.ProductInternalProducts">
+				<methods>
+					<include name="addInternalProduct" />
+					<include name="editProductInternal" />
+					<include name="deleteProductInternal" />
+					<include name="sortProductInternal" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.ProductSubwallet">
+				<methods>
+					<include name="addProductSubwallet" />
+					<include name="editProductSubwallet" />
+					<include name="sortProductSubwallet" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
+	

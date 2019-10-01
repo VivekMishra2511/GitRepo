@@ -1,0 +1,788 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+
+<suite
+	name="MobiFin 4.1.0 - Admin Portal - Settings - Business And CRUD Single Data"
+	verbose="10" parallel="false" thread-count="1">
+
+	<listeners>
+		<listener class-name='com.panamax.init.CustomizedEmailableReport' />
+	</listeners>
+
+	<parameter name="browserType" value="chrome" />
+	<parameter name="appURL" value="https://admin-coltoqa.panamaxil.com" />
+
+	<test name="Mobifin 4.1.0 : Settings - GIS Master - Add Country">
+		<classes>
+			<class name="com.panamax.testcases.SettingsGISMasterCountry">
+				<methods>
+					<include name="addCountry" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 
+		4.1.0 : Settings - GIS Master - Edit Country">
+		<classes>
+			<class name="com.panamax.testcases.SettingsGISMasterCountry">
+				<methods>
+					<include name="editCountry" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - GIS Master - Delete Country">
+		<classes>
+			<class name="com.panamax.testcases.SettingsGISMasterCountry">
+				<methods>
+					<include name="deleteCountry" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 
+		4.1.0 : Settings - GIS Master - Sort Country">
+		<classes>
+			<class name="com.panamax.testcases.SettingsGISMasterCountry">
+				<methods>
+					<include name="sortCountry" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - GIS Master - Add State">
+		<classes>
+			<class name="com.panamax.testcases.SettingsGISMasterState">
+				<methods>
+					<include name="addState" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 
+		4.1.0 : Settings - GIS Master - Edit State">
+		<classes>
+			<class name="com.panamax.testcases.SettingsGISMasterState">
+				<methods>
+					<include name="editState" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - GIS Master - Delete State">
+		<classes>
+			<class name="com.panamax.testcases.SettingsGISMasterState">
+				<methods>
+					<include name="deleteState" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 
+		4.1.0 : Settings - GIS Master - Sort State">
+		<classes>
+			<class name="com.panamax.testcases.SettingsGISMasterState">
+				<methods>
+					<include name="sortState" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - GIS Master - Add Map Code">
+		<classes>
+			<class name="com.panamax.testcases.SettingsGISMasterMapcode">
+				<methods>
+					<include name="addMapcode" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 
+		4.1.0 : Settings - GIS Master - Edit Map Code">
+		<classes>
+			<class name="com.panamax.testcases.SettingsGISMasterMapcode">
+				<methods>
+					<include name="editMapcode" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - GIS Master - Delete Map Code">
+		<classes>
+			<class name="com.panamax.testcases.SettingsGISMasterMapcode">
+				<methods>
+					<include name="deleteMapcode" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 
+		4.1.0 : Settings - GIS Master - Sort Map Code">
+		<classes>
+			<class name="com.panamax.testcases.SettingsGISMasterMapcode">
+				<methods>
+					<include name="sortMapcode" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - DKYC Master - Add DKYC Category">
+		<classes>
+			<class name="com.panamax.testcases.SettingsDKYCMasterCategory">
+				<methods>
+					<include name="addCategory" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - DKYC Master - Edit DKYC Category">
+		<classes>
+			<class name="com.panamax.testcases.SettingsDKYCMasterCategory">
+				<methods>
+					<include name="editCategory" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 : Settings - DKYC Master - Delete DKYC 
+		Category">
+		<classes>
+			<class name="com.panamax.testcases.SettingsDKYCMasterCategory">
+				<methods>
+					<include name="deleteCategory" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - DKYC Master - Sort DKYC Category">
+		<classes>
+			<class name="com.panamax.testcases.SettingsDKYCMasterCategory">
+				<methods>
+					<include name="sortDKYCCategory" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - DKYC Master - Add DKYC Field">
+		<classes>
+			<class name="com.panamax.testcases.SettingsDKYCMasterField">
+				<methods>
+					<include name="addField" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - DKYC Master - Edit DKYC Field">
+		<classes>
+			<class name="com.panamax.testcases.SettingsDKYCMasterField">
+				<methods>
+					<include name="editField" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 
+		4.1.0 : Settings - DKYC Master - Delete DKYC Field">
+		<classes>
+			<class name="com.panamax.testcases.SettingsDKYCMasterField">
+				<methods>
+					<include name="deleteField" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - DKYC Master - Sort DKYC Field">
+		<classes>
+			<class name="com.panamax.testcases.SettingsDKYCMasterField">
+				<methods>
+					<include name="sortDKYCField" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 
+		4.1.0 : Settings - User Management - Add Department">
+		<classes>
+			<class name="com.panamax.testcases.SettingsUserManagementDepartment">
+				<methods>
+					<include name="addDepartment" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - User Management - Edit Department">
+		<classes>
+			<class name="com.panamax.testcases.SettingsUserManagementDepartment">
+				<methods>
+					<include name="editDepartment" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - User Management - Delete Department">
+		<classes>
+			<class name="com.panamax.testcases.SettingsUserManagementDepartment">
+				<methods>
+					<include name="deleteDepartment" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - User Management - Sort Department">
+		<classes>
+			<class name="com.panamax.testcases.SettingsUserManagementDepartment">
+				<methods>
+					<include name="sortDepartment" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - User Management - Add Role">
+		<classes>
+			<class name="com.panamax.testcases.SettingsUserManagementRole">
+				<methods>
+					<include name="addRole" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - User Management - Edit Role">
+		<classes>
+			<class name="com.panamax.testcases.SettingsUserManagementRole">
+				<methods>
+					<include name="editRole" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - User Management - Delete Role">
+		<classes>
+			<class name="com.panamax.testcases.SettingsUserManagementRole">
+				<methods>
+					<include name="deleteRole" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - User Management - Sort Role">
+		<classes>
+			<class name="com.panamax.testcases.SettingsUserManagementRole">
+				<methods>
+					<include name="sortRole" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - User Management - Add Dashboard">
+		<classes>
+			<class name="com.panamax.testcases.SettingsUserManagementDashboard">
+				<methods>
+					<include name="addDashboard" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - User Management - Edit Dashboard">
+		<classes>
+			<class name="com.panamax.testcases.SettingsUserManagementDashboard">
+				<methods>
+					<include name="editDashboard" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - User Management - Delete Dashboard">
+		<classes>
+			<class name="com.panamax.testcases.SettingsUserManagementDashboard">
+				<methods>
+					<include name="deleteDashboard" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - User Management - Sort Dashboard">
+		<classes>
+			<class name="com.panamax.testcases.SettingsUserManagementDashboard">
+				<methods>
+					<include name="sortDashboard" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - User Management - Add User">
+		<classes>
+			<class name="com.panamax.testcases.SettingsUserManagementUser">
+				<methods>
+					<include name="addUser" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - User Management - Edit User">
+		<classes>
+			<class name="com.panamax.testcases.SettingsUserManagementUser">
+				<methods>
+					<include name="editUser" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - User Management - Delete User">
+		<classes>
+			<class name="com.panamax.testcases.SettingsUserManagementUser">
+				<methods>
+					<include name="deleteUser" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - User Management - Sort User">
+		<classes>
+			<class name="com.panamax.testcases.SettingsUserManagementUser">
+				<methods>
+					<include name="sortUser" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - Alert - Add SMS Account">
+		<classes>
+			<class name="com.panamax.testcases.SettingsAlertSMSAccount">
+				<methods>
+					<include name="addSMSAccount" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 
+		4.1.0 : Settings - Alert - Edit SMS Account">
+		<classes>
+			<class name="com.panamax.testcases.SettingsAlertSMSAccount">
+				<methods>
+					<include name="editSMSAccount" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - Alert - Delete SMS Account">
+		<classes>
+			<class name="com.panamax.testcases.SettingsAlertSMSAccount">
+				<methods>
+					<include name="deleteSMSAccount" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - Alert - Sort SMS Account">
+		<classes>
+			<class name="com.panamax.testcases.SettingsAlertSMSAccount">
+				<methods>
+					<include name="sortSMSAccount" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 
+		4.1.0 : Settings - Alert - Add EmailAccount">
+		<classes>
+			<class name="com.panamax.testcases.SettingsAlertEmailAccount">
+				<methods>
+					<include name="addEmailAccount" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - Alert - Edit EmailAccount">
+		<classes>
+			<class name="com.panamax.testcases.SettingsAlertEmailAccount">
+				<methods>
+					<include name="editEmailAccount" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - Alert - Delete EmailAccount">
+		<classes>
+			<class name="com.panamax.testcases.SettingsAlertEmailAccount">
+				<methods>
+					<include name="deleteEmailAccount" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - Alert - Sort EmailAccount">
+		<classes>
+			<class name="com.panamax.testcases.SettingsAlertEmailAccount">
+				<methods>
+					<include name="sortEmailAccount" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - Alert - Add SMSAlert">
+		<classes>
+			<class name="com.panamax.testcases.SettingsAlertSMSAlert">
+				<methods>
+					<include name="addAlertSMSAlert" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 
+		4.1.0 : Settings - Alert - Edit SMSAlert">
+		<classes>
+			<class name="com.panamax.testcases.SettingsAlertSMSAlert">
+				<methods>
+					<include name="editAlertSMSAlert" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - Alert - Delete SMSAlert">
+		<classes>
+			<class name="com.panamax.testcases.SettingsAlertSMSAlert">
+				<methods>
+					<include name="deleteAlertSMSAlert" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - Alert - Sort SMSAlert">
+		<classes>
+			<class name="com.panamax.testcases.SettingsAlertSMSAlert">
+				<methods>
+					<include name="sortAlertSMSAlert" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - Alert - Add Email Template">
+		<classes>
+			<class name="com.panamax.testcases.SettingsAlertEmailTemplate">
+				<methods>
+					<include name="addEmailTemplate" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 
+		4.1.0 : Settings - Alert - Edit Email Template">
+		<classes>
+			<class name="com.panamax.testcases.SettingsAlertEmailTemplate">
+				<methods>
+					<include name="editEmailTemplate" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - Alert - Delete Email Template">
+		<classes>
+			<class name="com.panamax.testcases.SettingsAlertEmailTemplate">
+				<methods>
+					<include name="deleteEmailTemplate" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - Alert - Sort Email Template">
+		<classes>
+			<class name="com.panamax.testcases.SettingsAlertEmailTemplate">
+				<methods>
+					<include name="sortEmailTemplate" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - Alert - Add SMS Template">
+		<classes>
+			<class name="com.panamax.testcases.SettingsAlertSMSTemplate">
+				<methods>
+					<include name="addSMSTemplate" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - Alert - Edit SMS Template">
+		<classes>
+			<class name="com.panamax.testcases.SettingsAlertSMSTemplate">
+				<methods>
+					<include name="editSMSTemplate" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 
+		4.1.0 : Settings - Alert - Delete SMS Template">
+		<classes>
+			<class name="com.panamax.testcases.SettingsAlertSMSTemplate">
+				<methods>
+					<include name="deleteSMSTemplate" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - Alert - Sort SMS Template">
+		<classes>
+			<class name="com.panamax.testcases.SettingsAlertSMSTemplate">
+				<methods>
+					<include name="sortSMSTemplate" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - System Preference - Add Tag">
+		<classes>
+			<class name="com.panamax.testcases.SettingsSystemPreferenceTag">
+				<methods>
+					<include name="addTag" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 
+		4.1.0 : Settings - System Preference - Edit Tag">
+		<classes>
+			<class name="com.panamax.testcases.SettingsSystemPreferenceTag">
+				<methods>
+					<include name="editTag" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - System Preference - Sort Tag">
+		<classes>
+			<class name="com.panamax.testcases.SettingsSystemPreferenceTag">
+				<methods>
+					<include name="sortTag" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="Mobifin 
+		4.1.0 : Settings - System Preference - Add OperationUser">
+		<classes>
+			<class name="com.panamax.testcases.SettingsSystemPreferenceOperationUser">
+				<methods>
+					<include name="addOperationUser" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 : Settings - System Preference - Edit OperationUser">
+		<classes>
+			<class name="com.panamax.testcases.SettingsSystemPreferenceOperationUser">
+				<methods>
+					<include name="editOperationUser" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 : Settings - System Preference - Delete 
+		OperationUser">
+		<classes>
+			<class name="com.panamax.testcases.SettingsSystemPreferenceOperationUser">
+				<methods>
+					<include name="deleteOperationUser" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 : Settings - System Preference - Sort OperationUser">
+		<classes>
+			<class name="com.panamax.testcases.SettingsSystemPreferenceOperationUser">
+				<methods>
+					<include name="sortOperationUser" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 : Settings - System Preference - Add RetailSegment">
+		<classes>
+			<class name="com.panamax.testcases.SettingsSystemPreferenceRetailSegment">
+				<methods>
+					<include name="addRetailSegment" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 : Settings - System Preference - Edit RetailSegment">
+		<classes>
+			<class name="com.panamax.testcases.SettingsSystemPreferenceRetailSegment">
+				<methods>
+					<include name="editRetailSegment" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 : Settings - System Preference - Delete 
+		RetailSegment">
+		<classes>
+			<class name="com.panamax.testcases.SettingsSystemPreferenceRetailSegment">
+				<methods>
+					<include name="deleteRetailSegment" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 : Settings - System Preference - Sort RetailSegment">
+		<classes>
+			<class name="com.panamax.testcases.SettingsSystemPreferenceRetailSegment">
+				<methods>
+					<include name="sortRetailSegment" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - System Preference - Add BlockPhone">
+		<classes>
+			<class name="com.panamax.testcases.SettingsSystemPreferenceBlockPhone">
+				<methods>
+					<include name="addBlockPhone" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - System Preference - Edit BlockPhone">
+		<classes>
+			<class name="com.panamax.testcases.SettingsSystemPreferenceBlockPhone">
+				<methods>
+					<include name="editBlockPhone" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 : Settings - System Preference - Delete 
+		BlockPhone">
+		<classes>
+			<class name="com.panamax.testcases.SettingsSystemPreferenceBlockPhone">
+				<methods>
+					<include name="deleteBlockPhone" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - System Preference - Sort BlockPhone">
+		<classes>
+			<class name="com.panamax.testcases.SettingsSystemPreferenceBlockPhone">
+				<methods>
+					<include name="sortBlockPhone" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 : Settings - System Preference - Add BlockIDNumber">
+		<classes>
+			<class name="com.panamax.testcases.SettingsSystemPreferenceBlockIDNumber">
+				<methods>
+					<include name="addBlockIDNumber" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 : Settings - System Preference - Edit BlockIDNumber">
+		<classes>
+			<class name="com.panamax.testcases.SettingsSystemPreferenceBlockIDNumber">
+				<methods>
+					<include name="editBlockIDNumber" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 : Settings - System Preference - Delete 
+		BlockIDNumber">
+		<classes>
+			<class name="com.panamax.testcases.SettingsSystemPreferenceBlockIDNumber">
+				<methods>
+					<include name="deleteBlockIDNumber" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 : Settings - System Preference - Sort BlockIDNumber">
+		<classes>
+			<class name="com.panamax.testcases.SettingsSystemPreferenceBlockIDNumber">
+				<methods>
+					<include name="sortBlockIDNumber" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - Tools - Add ImageUploader">
+		<classes>
+			<class name="com.panamax.testcases.SettingsToolsImageUploader">
+				<methods>
+					<include name="addImageUploader" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - Tools - Edit ImageUploader">
+		<classes>
+			<class name="com.panamax.testcases.SettingsToolsImageUploader">
+				<methods>
+					<include name="editImageUploader" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - Tools - Delete ImageUploader">
+		<classes>
+			<class name="com.panamax.testcases.SettingsToolsImageUploader">
+				<methods>
+					<include name="deleteImageUploader" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - Tools - Sort ImageUploader">
+		<classes>
+			<class name="com.panamax.testcases.SettingsToolsImageUploader">
+				<methods>
+					<include name="sortImageUploader" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - Tools - Add ExchangeRate">
+		<classes>
+			<class name="com.panamax.testcases.SettingsToolsExchangeRate">
+				<methods>
+					<include name="addExchangeRate" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - Tools - Edit ExchangeRate">
+		<classes>
+			<class name="com.panamax.testcases.SettingsToolsExchangeRate">
+				<methods>
+					<include name="editExchangeRate" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Settings - Tools - Sort ExchangeRate">
+		<classes>
+			<class name="com.panamax.testcases.SettingsToolsExchangeRate">
+				<methods>
+					<include name="sortExchangeRate" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 
+	

@@ -1,0 +1,1 @@
+{"uuid":"cfc1946e-36ce-4c96-9e34-0ce2f94769bf","name":"com.panamax.init.SetupInit.tearDown","description":"","start":1567404889842,"stop":1567404890537,"children":["c546bc6b-437a-4bca-ae5f-b2693fb2b648"],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","start":1567404889843,"stop":1567404890537}]}

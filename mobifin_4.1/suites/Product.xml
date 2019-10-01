@@ -1,0 +1,262 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+
+<suite
+	name="MobiFin 4.1.0 - Admin Portal - Product - Business And CRUD Single Data"
+	verbose="10" parallel="false" thread-count="1">
+
+	<listeners>
+		<listener class-name='com.panamax.init.CustomizedEmailableReport' />
+	</listeners>
+
+	<parameter name="browserType" value="chrome" />
+	<parameter name="appURL" value="https://admin-coltoqa.panamaxil.com" />
+	<test name="Mobifin 4.1.0 : External Product Add VendorIntegration">
+		<classes>
+			<class name="com.panamax.testcases.ProductExternalVendorIntegration">
+				<methods>
+					<include name="addVendorIntegration" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : External Product Edit VendorIntegration">
+		<classes>
+			<class name="com.panamax.testcases.ProductExternalVendorIntegration">
+				<methods>
+					<include name="editVendorIntegration" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : External Product Delete VendorIntegration">
+		<classes>
+			<class name="com.panamax.testcases.ProductExternalVendorIntegration">
+				<methods>
+					<include name="deleteVendorIntegration" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : External Product Sort VendorIntegration">
+		<classes>
+			<class name="com.panamax.testcases.ProductExternalVendorIntegration">
+				<methods>
+					<include name="sortVendorIntegration" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : External Product Add VendorProductManager">
+		<classes>
+			<class name="com.panamax.testcases.ProductExternalVendorProductManager">
+				<methods>
+					<include name="addVendorProductManager" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : External Product Edit VendorProductManager">
+		<classes>
+			<class name="com.panamax.testcases.ProductExternalVendorProductManager">
+				<methods>
+					<include name="editVendorProductManager" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : External Product Delete VendorProductManager">
+		<classes>
+			<class name="com.panamax.testcases.ProductExternalVendorProductManager">
+				<methods>
+					<include name="deleteVendorProductManager" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : External Product Sort VendorProductManager">
+		<classes>
+			<class name="com.panamax.testcases.ProductExternalVendorProductManager">
+				<methods>
+					<include name="sortVendorProductManager" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : External Product Add Operator">
+		<classes>
+			<class name="com.panamax.testcases.ProductExternalProductsOperator">
+				<methods>
+					<include name="addOperator" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : External Product Edit Operator">
+		<classes>
+			<class name="com.panamax.testcases.ProductExternalProductsOperator">
+				<methods>
+					<include name="editOperator" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 
+		4.1.0 : External Product Delete Operator">
+		<parameter name="SheetName" value="ExternalProducts_Operator_Delet" />
+		<classes>
+			<class name="com.panamax.testcases.ProductExternalProductsOperator">
+				<methods>
+					<include name="deleteOperator" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : External Product Sort Operator">
+		<parameter name="SheetName" value="ExternalProducts_Operator_Delet" />
+		<classes>
+			<class name="com.panamax.testcases.ProductExternalProductsOperator">
+				<methods>
+					<include name="sortOperator" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 Product - Add Taxation">
+		<classes>
+			<class name="com.panamax.testcases.ProductTaxation">
+				<methods>
+					<include name="addTaxation" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 Product - Edit Taxation">
+		<classes>
+			<class name="com.panamax.testcases.ProductTaxation">
+				<methods>
+					<include name="editTaxation" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 Product - Delete Taxation">
+		<classes>
+			<class name="com.panamax.testcases.ProductTaxation">
+				<methods>
+					<include name="deleteTaxation" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 Product - Sort Taxation">
+		<classes>
+			<class name="com.panamax.testcases.ProductTaxation">
+				<methods>
+					<include name="sortTaxation" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 
+		4.1.0 : External Product Add ProductManager">
+		<classes>
+			<class name="com.panamax.testcases.ProductExternalProductManager">
+				<methods>
+					<include name="addProductManager" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : External Product Edit ProductManager">
+		<classes>
+			<class name="com.panamax.testcases.ProductExternalProductManager">
+				<methods>
+					<include name="editProductManager" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : External Product Delete ProductManager">
+		<classes>
+			<class name="com.panamax.testcases.ProductExternalProductManager">
+				<methods>
+					<include name="deleteProductManager" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : External Product Sort ProductManager">
+		<classes>
+			<class name="com.panamax.testcases.ProductExternalProductManager">
+				<methods>
+					<include name="sortProductManager" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : External Product Add InternalProduct">
+		<classes>
+			<class name="com.panamax.testcases.ProductInternalProducts">
+				<methods>
+					<include name="addInternalProduct" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : External Product Edit InternalProduct">
+		<classes>
+			<class name="com.panamax.testcases.ProductInternalProducts">
+				<methods>
+					<include name="editProductInternal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : External Product Delete InternalProduct">
+		<classes>
+			<class name="com.panamax.testcases.ProductInternalProducts">
+				<methods>
+					<include name="deleteProductInternal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : External Product Sort InternalProduct">
+		<classes>
+			<class name="com.panamax.testcases.ProductInternalProducts">
+				<methods>
+					<include name="sortProductInternal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : External Product Add Subwallet">
+		<classes>
+			<class name="com.panamax.testcases.ProductSubwallet">
+				<methods>
+					<include name="addProductSubwallet" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : External Product Edit Subwallet">
+		<classes>
+			<class name="com.panamax.testcases.ProductSubwallet">
+				<methods>
+					<include name="editProductSubwallet" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : External Product Sort Subwallet">
+		<classes>
+			<class name="com.panamax.testcases.ProductSubwallet">
+				<methods>
+					<include name="sortProductSubwallet" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 
+	

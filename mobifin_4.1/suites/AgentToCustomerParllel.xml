@@ -1,0 +1,659 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+
+<suite name="MobiFin 4.1.0 - Admin Portal - Agent To Customer Modules"
+	verbose="10" parallel="tests" thread-count="5">
+
+	<listeners>
+		<listener class-name='com.panamax.init.CustomizedEmailableReport' />
+	</listeners>
+	<parameter name="browserType" value="chrome" />
+	<parameter name="appURL" value="http://admin-coltoqa.panamaxil.com" />
+
+	<test name="MobiFin 4.1.0 - Customer">
+		<classes>
+			<class name="com.panamax.testcases.CustomerProfile">
+				<methods>
+					<include name="addProfile" />
+					<include name="editProfile" />
+					<include name="deleteProfile" />
+					<include name="sortProfile" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.CustomerMatrix">
+				<methods>
+					<include name="editCustomerMatrix" />
+					<include name="sortMatrix" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.CustomerThresholdExternal">
+				<methods>
+					<include name="addCustomerThresholdExternal" />
+					<include name="editCustomerThresholdExternal" />
+					<include name="deleteCustomerThresholdExternal" />
+					<include name="sortExternalThreshold" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.CustomerThresholdInternal">
+				<methods>
+					<include name="addCustomerThresholdInternal" />
+					<include name="editCustomerThresholdInternal" />
+					<include name="sortInternalThreshold" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.CustomerOnboarding">
+				<methods>
+					<include name="addOnboarding" />
+					<include name="editOnboarding" />
+					<include name="deleteOnboarding" />
+					<include name="sortOnboarding" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.CustomerReportTransactionDetail">
+				<methods>
+					<include name="searchTransactionDetailReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.CustomerReportTransactionSummary">
+				<methods>
+					<include name="searchTransactionSummaryReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.CustomerReportTransactionPerformance">
+				<methods>
+					<include name="searchTransactionPerformanceReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.CustomerReportTransactionDrilldown">
+				<methods>
+					<include name="searchTransactionDrilldownReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.CustomerReportOnboardingDetail">
+				<methods>
+					<include name="searchOnboardingDetailReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.CustomerReportOnboardingSummary">
+				<methods>
+					<include name="searchOnboardingSummaryReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.CustomerReportOnboardingPerformance">
+				<methods>
+					<include name="searchOnboardingPerformanceReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.CustomerReportOnboardingDrilldown">
+				<methods>
+					<include name="searchOnboardingDrilldownReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.CustomerReportActivityReport">
+				<methods>
+					<include name="searchActivityReport" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="MobiFin 4.1.0 - Merchant">
+		<classes>
+			<class name="com.panamax.testcases.MerchantTree">
+				<methods>
+					<include name="addTree" />
+					<include name="editTree" />
+					<include name="deleteTree" />
+					<include name="sortTree" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.MerchantProfile">
+				<methods>
+					<include name="addProfile" />
+					<include name="editProfile" />
+					<include name="deleteProfile" />
+					<include name="sortProfile" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.MerchantMatrix">
+				<methods>
+					<include name="editMerchantMatrix" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.MerchantThresholdInternal">
+				<methods>
+					<include name="addMerchantThresholdInternal" />
+					<include name="editMerchantThresholdInternal" />
+					<include name="deleteMerchantThresholdInternal" />
+					<include name="sortInternalThreshold" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.MerchantOnboarding">
+				<methods>
+					<include name="addOnboarding" />
+					<include name="editOnboarding" />
+					<include name="deleteOnboarding" />
+					<include name="sortOnboarding" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.MerchantTerminalOnboarding">
+				<methods>
+					<include name="addTerminalOnboarding" />
+					<include name="editTerminalOnboarding" />
+					<include name="deleteTerminalOnboarding" />
+					<include name="sortTerminalOnboarding" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.MerchantReportTransactionDetail">
+				<methods>
+					<include name="searchTransactionDetailReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.MerchantReportTransactionSummary">
+				<methods>
+					<include name="searchTransactionSummaryReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.MerchantReportTransactionPerformance">
+				<methods>
+					<include name="searchTransactionPerformanceReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.MerchantReportTransactionDrilldown">
+				<methods>
+					<include name="searchTransactionDrilldownReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.MerchantReportOnboardingDetail">
+				<methods>
+					<include name="searchOnboardingDetailReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.MerchantReportTerminalOnboardingDetail">
+				<methods>
+					<include name="searchTerminalOnboardingDetailReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.MerchantReportOnboardingSummary">
+				<methods>
+					<include name="searchOnboardingSummaryReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.MerchantReportOnboardingPerformance">
+				<methods>
+					<include name="searchOnboardingPerformanceReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.MerchantReportOnboardingDrilldown">
+				<methods>
+					<include name="searchOnboardingDrilldownReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.MerchantReportActivityReport">
+				<methods>
+					<include name="searchActivityReport" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="MobiFin 4.1.0 - Agent">
+		<classes>
+			<class name="com.panamax.testcases.AgentTree">
+				<methods>
+					<include name="addTree" />
+					<include name="editTree" />
+					<include name="deleteTree" />
+					<include name="sortTree" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.AgentProfile">
+				<methods>
+					<include name="addProfile" />
+					<include name="editProfile" />
+					<include name="deleteProfile" />
+					<include name="sortProfile" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.AgentMatrix">
+				<methods>
+					<include name="editAgentMatrix" />
+					<include name="sortMatrix" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.AgentOnboarding">
+				<methods>
+					<include name="addOnboarding" />
+					<include name="editOnboarding" />
+					<include name="deleteOnboarding" />
+					<include name="sortOnboarding" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.AgentBranchView">
+				<methods>
+					<include name="addBranchView" />
+					<include name="editBranchView" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.AgentAssistantOnboarding">
+				<methods>
+					<include name="addAssistantOnboarding" />
+					<include name="editAssistantOnboarding" />
+					<include name="deleteAssistantOnboarding" />
+					<include name="sortAssistantOnboarding" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.AgentThresholdExternal">
+				<methods>
+					<include name="addAgentThresholdExternal" />
+					<include name="editAgentThresholdExternal" />
+					<include name="deleteAgentThresholdExternal" />
+					<include name="sortExternalThreshold" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.AgentThresholdInternal">
+				<methods>
+					<include name="addAgentThresholdInternal" />
+					<include name="editAgentThresholdInternal" />
+					<include name="deleteAgentThresholdInternal" />
+					<include name="sortInternalThreshold" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.AgentReportTransactionDetail">
+				<methods>
+					<include name="searchTransactionDetailReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.AgentReportTransactionSummary">
+				<methods>
+					<include name="searchTransactionSummaryReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.AgentReportTransactionPerformance">
+				<methods>
+					<include name="searchTransactionPerformanceReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.AgentReportTransactionDrilldown">
+				<methods>
+					<include name="searchTransactionDrilldownReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.AgentReportOnboardingDetail">
+				<methods>
+					<include name="searchOnboardingDetailReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.AgentReportAssistantOnboardingDetail">
+				<methods>
+					<include name="searchTerminalOnboardingDetailReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.AgentReportOnboardingSummary">
+				<methods>
+					<include name="searchOnboardingSummaryReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.AgentReportOnboardingPerformance">
+				<methods>
+					<include name="searchOnboardingPerformanceReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.AgentReportOnboardingDrilldown">
+				<methods>
+					<include name="searchOnboardingDrilldownReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.AgentReportActivityReport">
+				<methods>
+					<include name="searchActivityReport" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="MobiFin 4.1.0 - Enterprise">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseProfile">
+				<methods>
+					<include name="addProfile" />
+					<include name="editProfile" />
+					<include name="deleteProfile" />
+					<include name="sortProfile" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.EnterpriseMatrix">
+				<methods>
+					<include name="editEnterpriseMatrix" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.EnterpriseThresholdInternal">
+				<methods>
+					<include name="addEnterpriseThresholdInternal" />
+					<include name="editEnterpriseThresholdInternal" />
+					<include name="deleteEnterpriseThresholdInternal" />
+					<include name="sortInternalThreshold" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.EnterpriseThresholdExternal">
+				<methods>
+					<include name="addEnterpriseThresholdExternal" />
+					<include name="editEnterpriseThresholdExternal" />
+					<include name="deleteEnterpriseThresholdExternal" />
+					<include name="sortExternalThreshold" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.EnterpriseOnboarding">
+				<methods>
+					<include name="addOnboarding" />
+					<include name="editOnboarding" />
+					<include name="deleteOnboarding" />
+					<include name="sortOnboarding" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.EnterpriseOnboardingUser">
+				<methods>
+					<include name="addOnboardingUser" />
+					<include name="editOnboardingUser" />
+					<include name="deleteOnboardingUser" />
+					<include name="sortOnboardingUser" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.EnterpriseReportTransactionDetail">
+				<methods>
+					<include name="searchTransactionDetailReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.EnterpriseReportTransactionSummary">
+				<methods>
+					<include name="searchTransactionSummaryReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.EnterpriseReportTransactionPerformance">
+				<methods>
+					<include name="searchTransactionPerformanceReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.EnterpriseReportTransactionDrilldown">
+				<methods>
+					<include name="searchTransactionDrilldownReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.EnterpriseReportOnboardingDetail">
+				<methods>
+					<include name="searchOnboardingDetailReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.EnterpriseReportOnboardingSummary">
+				<methods>
+					<include name="searchOnboardingSummaryReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.EnterpriseReportOnboardingPerformance">
+				<methods>
+					<include name="searchOnboardingPerformanceReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.EnterpriseReportOnboardingDrilldown">
+				<methods>
+					<include name="searchOnboardingDrilldownReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.EnterpriseReportActivityReport">
+				<methods>
+					<include name="searchActivityReport" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="MobiFin 4.1.0 - Reports">
+		<classes>
+			<class
+				name="com.panamax.testcases.ReportsTransactionDetailInternalServiceDetailReport">
+				<methods>
+					<include name="searchInternalServiceDetailReport" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsTransactionDetailExternalServiceDetailReport">
+				<methods>
+					<include name="searchExternalServiceDetailReport" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsTransactionSummaryInternalServiceSummaryReport">
+				<methods>
+					<include name="searchInternalServiceSummaryReport" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsTransactionSummaryExternalServiceSummaryReport">
+				<methods>
+					<include name="searchExternalServiceSummaryReport" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsReversalDetailInternalServiceDetailReport">
+				<methods>
+					<include name="searchInternalServiceDetailReport" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsReversalDetailExternalServiceDetailReport">
+				<methods>
+					<include name="searchExternalServiceDetailReport" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsReversalSummaryInternalServiceSummaryReport">
+				<methods>
+					<include name="searchInternalServiceSummaryReport" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsReversalSummaryExternalServiceSummaryReport">
+				<methods>
+					<include name="searchExternalServiceSummaryReport" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsSystemWalletDetailSurchargeDetail">
+				<methods>
+					<include name="searchSurchargeDetail" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsSystemWalletDetailSuspenseAccountDetail">
+				<methods>
+					<include name="searchSuspenseAccountDetail" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsSystemWalletDetailCommisionDetail">
+				<methods>
+					<include name="searchCommisionDetail" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsSystemWalletDetailNonRegisterDetail">
+				<methods>
+					<include name="searchNonRegisterDetail" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsNotificationDetailEmailDetail">
+				<methods>
+					<include name="searchEmailDetail" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsNotificationDetailFCMDetail">
+				<methods>
+					<include name="searchFCMDetail" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsNotificationDetailSMSDetail">
+				<methods>
+					<include name="searchSMSDetail" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsNotificationSummaryEmailSummary">
+				<methods>
+					<include name="searchEmailSummary" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsNotificationSummaryFCMSummary">
+				<methods>
+					<include name="searchFCMSummary" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsNotificationSummarySMSSummary">
+				<methods>
+					<include name="searchSMSSummary" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsVendorTransactionDetail">
+				<methods>
+					<include name="searchVendorTransactionDetail" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.ReportsUserBaseReport">
+				<methods>
+					<include name="searchUserBaseReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.ReportsEmoneySummaryReport">
+				<methods>
+					<include name="searchEmoneySummaryReport" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsSupportActivityDetailReport">
+				<methods>
+					<include name="searchSupportActivityDetailReport" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsSupportActivitySummaryReport">
+				<methods>
+					<include name="searchSupportActivitySummaryReport" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsSupportPhoneNumberEditReport">
+				<methods>
+					<include name="searchSupportPhoneNumberEditReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.ReportsPocketCreation">
+				<methods>
+					<include name="searchPocketCreation" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsPocketTransactionReport">
+				<methods>
+					<include name="searchPocketCreation" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.ReportsPocketBalanceReport">
+				<methods>
+					<include name="searchPocketBalanceReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.ReportsUDIDetailReport">
+				<methods>
+					<include name="searchUDIDetailReport" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="MobiFin 4.1.0 - Support">
+		<classes>
+			<class
+				name="com.panamax.testcases.SupportCustomer">
+				<methods>
+					<include name="customerDetail" />
+				</methods>
+			</class>
+		<!-- <class name="com.panamax.testcases.SupportCustomer">
+				<methods>
+					<include name="eKYCUpdate" />
+				</methods>
+			</class> -->
+		<class name="com.panamax.testcases.SupportCustomer">
+				<methods>
+					<include name="loginPinReset"/>
+				</methods>
+			</class>	
+		<class name="com.panamax.testcases.SupportCustomer">
+				<methods>
+					<include name="statementOfAccount"/>
+				</methods>
+			</class>	
+		<class name="com.panamax.testcases.SupportCustomer">
+				<methods>
+					<include name="phoneNumberEdit"/>
+				</methods>
+			</class>	
+		<class name="com.panamax.testcases.SupportCustomer">
+				<methods>
+					<include name="resetSecurityQuestion"/>
+				</methods>
+			</class>	
+		<class name="com.panamax.testcases.SupportCustomer">
+				<methods>
+					<include name="manageNominee"/>
+				</methods>
+			</class>	
+		<class name="com.panamax.testcases.SupportCustomer">
+				<methods>
+					<include name="deleteSubWallet"/>
+				</methods>
+			</class>	
+		<class name="com.panamax.testcases.SupportCustomer">
+				<methods>
+					<include name="forcePocketUnlock"/>
+				</methods>
+			</class>	
+		<class name="com.panamax.testcases.SupportCustomer">
+				<methods>
+					<include name="stopSchedulePayments"/>
+				</methods>
+			</class>	
+		<class name="com.panamax.testcases.SupportCustomer">
+				<methods>
+					<include name="transactionReversal"/>
+				</methods>
+			</class>	
+		<class name="com.panamax.testcases.SupportCustomer">
+				<methods>
+					<include name="becomeAgent"/>
+				</methods>
+			</class>
+		<class name="com.panamax.testcases.SupportCustomer">
+				<methods>
+					<include name="resendNotification"/>
+				</methods>
+			</class>
+		<class name="com.panamax.testcases.SupportCustomer">
+				<methods>
+					<include name="terminateAccount" />
+				</methods>
+			</class>			
+		<class name="com.panamax.testcases.SupportCustomer">
+				<methods>
+					<include name="accountBlockOrUnblock" />
+				</methods>
+			</class>	
+		</classes>
+	</test>
+</suite>
+	

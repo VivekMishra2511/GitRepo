@@ -1,0 +1,183 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+
+<suite name="MobiFin 4.1.0 - Admin Portal - Reports Module" verbose="10"
+	parallel="false" thread-count="1">
+
+	<listeners>
+		<listener
+			class-name='com.panamax.init.CustomizedEmailableReport' />
+	</listeners>
+
+	<parameter name="browserType" value="chrome" />
+	<parameter name="appURL"
+		value="http://admin-coltoqa.panamaxil.com" />
+
+	<test name="MobiFin 4.1.0 - Reports">
+		<classes>
+			<class
+				name="com.panamax.testcases.ReportsTransactionDetailInternalServiceDetailReport">
+				<methods>
+					<include name="searchInternalServiceDetailReport" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsTransactionDetailExternalServiceDetailReport">
+				<methods>
+					<include name="searchExternalServiceDetailReport" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsTransactionSummaryInternalServiceSummaryReport">
+				<methods>
+					<include name="searchInternalServiceSummaryReport" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsTransactionSummaryExternalServiceSummaryReport">
+				<methods>
+					<include name="searchExternalServiceSummaryReport" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsReversalDetailInternalServiceDetailReport">
+				<methods>
+					<include name="searchInternalServiceDetailReport" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsReversalDetailExternalServiceDetailReport">
+				<methods>
+					<include name="searchExternalServiceDetailReport" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsReversalSummaryInternalServiceSummaryReport">
+				<methods>
+					<include name="searchInternalServiceSummaryReport" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsReversalSummaryExternalServiceSummaryReport">
+				<methods>
+					<include name="searchExternalServiceSummaryReport" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsSystemWalletDetailSurchargeDetail">
+				<methods>
+					<include name="searchSurchargeDetail" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsSystemWalletDetailSuspenseAccountDetail">
+				<methods>
+					<include name="searchSuspenseAccountDetail" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsSystemWalletDetailCommisionDetail">
+				<methods>
+					<include name="searchCommisionDetail" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsSystemWalletDetailNonRegisterDetail">
+				<methods>
+					<include name="searchNonRegisterDetail" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsNotificationDetailEmailDetail">
+				<methods>
+					<include name="searchEmailDetail" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsNotificationDetailFCMDetail">
+				<methods>
+					<include name="searchFCMDetail" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsNotificationDetailSMSDetail">
+				<methods>
+					<include name="searchSMSDetail" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsNotificationSummaryEmailSummary">
+				<methods>
+					<include name="searchEmailSummary" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsNotificationSummaryFCMSummary">
+				<methods>
+					<include name="searchFCMSummary" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsNotificationSummarySMSSummary">
+				<methods>
+					<include name="searchSMSSummary" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsVendorTransactionDetail">
+				<methods>
+					<include name="searchVendorTransactionDetail" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.ReportsUserBaseReport">
+				<methods>
+					<include name="searchUserBaseReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.ReportsEmoneySummaryReport">
+				<methods>
+					<include name="searchEmoneySummaryReport" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsSupportActivityDetailReport">
+				<methods>
+					<include name="searchSupportActivityDetailReport" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsSupportActivitySummaryReport">
+				<methods>
+					<include name="searchSupportActivitySummaryReport" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsSupportPhoneNumberEditReport">
+				<methods>
+					<include name="searchSupportPhoneNumberEditReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.ReportsPocketCreation">
+				<methods>
+					<include name="searchPocketCreation" />
+				</methods>
+			</class>
+			<class
+				name="com.panamax.testcases.ReportsPocketTransactionReport">
+				<methods>
+					<include name="searchPocketCreation" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.ReportsPocketBalanceReport">
+				<methods>
+					<include name="searchPocketBalanceReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.ReportsUDIDetailReport">
+				<methods>
+					<include name="searchUDIDetailReport" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>	

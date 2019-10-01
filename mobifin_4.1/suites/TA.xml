@@ -1,0 +1,114 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+
+<suite
+	name="MobiFin 4.1.0 - Admin Portal - Trust Account - Business And CRUD Single Data"
+	verbose="10" parallel="false" thread-count="1">
+
+	<listeners>
+		<listener class-name='com.panamax.init.CustomizedEmailableReport' />
+	</listeners>
+
+	<parameter name="browserType" value="chrome" />
+	<parameter name="appURL" value="https://admin-coltoqa.panamaxil.com" />
+
+	<test name="Mobifin 4.1.0 : Trust Account - Add TA Bank">
+		<classes>
+			<class name="com.panamax.testcases.TABank">
+				<methods>
+					<include name="addTABank" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Trust Account - Edit TA Bank">
+		<classes>
+			<class name="com.panamax.testcases.TABank">
+				<methods>
+					<include name="editTABank" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Trust Account - Delete TA Bank">
+		<classes>
+			<class name="com.panamax.testcases.TABank">
+				<methods>
+					<include name="deleteTABank" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Trust Account - Sort TA Bank">
+		<classes>
+			<class name="com.panamax.testcases.TABank">
+				<methods>
+					<include name="sortBank" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Trust Account - Add TA User">
+		<classes>
+			<class name="com.panamax.testcases.TAUser">
+				<methods>
+					<include name="addTAUser" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Trust Account - Edit TA User">
+		<classes>
+			<class name="com.panamax.testcases.TAUser">
+				<methods>
+					<include name="editTAUser" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Trust Account - Delete TA User">
+		<classes>
+			<class name="com.panamax.testcases.TAUser">
+				<methods>
+					<include name="deleteTAUser" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Trust Account - Sort TA User">
+		<classes>
+			<class name="com.panamax.testcases.TAUser">
+				<methods>
+					<include name="sortTAUser" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : TrustAccount Report Search TransactionDetail">
+		<classes>
+			<class name="com.panamax.testcases.TrustAccountReportTransactionDetail" />
+		</classes>
+	</test>
+	<test name="Test Scenario : TrustAccount Report Search TransactionSummary">
+		<classes>
+			<class name="com.panamax.testcases.TrustAccountReportTransactionSummary" />
+		</classes>
+	</test>
+	<test name="Test Scenario : TrustAccount Report Emoney Detail">
+		<classes>
+			<class name="com.panamax.testcases.TrustAccountReportEmoneyDetail" />
+		</classes>
+	</test>
+	<test name="Test Scenario : TrustAccount Report Emoney Summary">
+		<classes>
+			<class name="com.panamax.testcases.TrustAccountReportEmoneySummary" />
+		</classes>
+	</test>
+	<test name="Test Scenario : TrustAccount Report Search ActivityReport">
+			<classes>
+				<class name="com.panamax.testcases.TrustAccountReportActivityReport" />
+			</classes>
+	</test>				
+		
+</suite> 
+	

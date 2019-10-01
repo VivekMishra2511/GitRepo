@@ -1,0 +1,474 @@
+{
+  "uid" : "9a5519cd3e8cf43d",
+  "name" : "Id: EditCountry, Author: Dishant Doshi",
+  "fullName" : "com.panamax.testcases.SettingsGISMasterCountry.deleteCountry",
+  "historyId" : "3572d566cecca08de607788f275950ae",
+  "time" : {
+    "start" : 1567405927421,
+    "stop" : 1567405966213,
+    "duration" : 38792
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initializeSetupInit",
+    "time" : {
+      "start" : 1567405892052,
+      "stop" : 1567405926929,
+      "duration" : 34877
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Sent text in UserName: admin.",
+      "time" : {
+        "start" : 1567405914664,
+        "stop" : 1567405914664,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Sent text in UserName: admin"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Sent text in userkey: Onlyqa@1234.",
+      "time" : {
+        "start" : 1567405915624,
+        "stop" : 1567405915624,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Sent text in userkey: Onlyqa@1234"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Clicked on Login.",
+      "time" : {
+        "start" : 1567405926929,
+        "stop" : 1567405926929,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on Login"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Clicked on Settings.",
+      "time" : {
+        "start" : 1567405932588,
+        "stop" : 1567405932588,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on Settings"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Clicked on GIS Master.",
+      "time" : {
+        "start" : 1567405934776,
+        "stop" : 1567405934776,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on GIS Master"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Clicked on Country.",
+      "time" : {
+        "start" : 1567405936947,
+        "stop" : 1567405936947,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on Country"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Clicked on Settings.",
+      "time" : {
+        "start" : 1567405944354,
+        "stop" : 1567405944354,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on Settings"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Clicked on search-frm-filter.",
+      "time" : {
+        "start" : 1567405946829,
+        "stop" : 1567405946829,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on search-frm-filter"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Clicked on Clear.",
+      "time" : {
+        "start" : 1567405951764,
+        "stop" : 1567405951764,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on Clear"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Clicked on search-frm-filter.",
+      "time" : {
+        "start" : 1567405954107,
+        "stop" : 1567405954107,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on search-frm-filter"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Sent text in txtCountryName: abcdeabcdeabcdeabcdeabcdeabcdeabcdeabcdeabcdexya.",
+      "time" : {
+        "start" : 1567405956471,
+        "stop" : 1567405956471,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Sent text in txtCountryName: abcdeabcdeabcdeabcdeabcdeabcdeabcdeabcdeabcdexya"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Sent text in txtCountryCode2Char: RT.",
+      "time" : {
+        "start" : 1567405958082,
+        "stop" : 1567405958082,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Sent text in txtCountryCode2Char: RT"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Sent text in txtCountryDialingCode: 848.",
+      "time" : {
+        "start" : 1567405959702,
+        "stop" : 1567405959702,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Sent text in txtCountryDialingCode: 848"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Clicked on Search.",
+      "time" : {
+        "start" : 1567405961882,
+        "stop" : 1567405961882,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on Search"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 11,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1567406095022,
+      "stop" : 1567406096120,
+      "duration" : 1098
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1567405966263,
+      "stop" : 1567405966263,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "finalizeExecution",
+    "time" : {
+      "start" : 1567406096232,
+      "stop" : 1567406103180,
+      "duration" : 6948
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.panamax.testcases.SettingsGISMasterCountry"
+  }, {
+    "name" : "testClass",
+    "value" : "com.panamax.testcases.SettingsGISMasterCountry"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteCountry"
+  }, {
+    "name" : "parentSuite",
+    "value" : "MobiFin 4.1.0 - Admin Portal - Settings Module"
+  }, {
+    "name" : "suite",
+    "value" : "MobiFin 4.1.0 - Settings"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.panamax.testcases.SettingsGISMasterCountry"
+  }, {
+    "name" : "host",
+    "value" : "PIL-AHD-LPT219"
+  }, {
+    "name" : "thread",
+    "value" : "4444@PIL-AHD-LPT219.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "appURL",
+    "value" : "http://admin-coltoqa.panamaxil.com"
+  }, {
+    "name" : "arg0",
+    "value" : "{CountryName=abcdeabcdeabcdeabcdeabcdeabcdeabcdeabcdeabcdexya, AbbreviationCode2=RT, DialingCode=848}"
+  }, {
+    "name" : "browserType",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "71f7a5ef44b78a82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567405269294,
+        "stop" : 1567405305996,
+        "duration" : 36702
+      }
+    }, {
+      "uid" : "f0d66c65ae077412",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567404931528,
+        "stop" : 1567404968108,
+        "duration" : 36580
+      }
+    }, {
+      "uid" : "5782b5f372ef09ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567404402212,
+        "stop" : 1567404441383,
+        "duration" : 39171
+      }
+    }, {
+      "uid" : "d92ccb866ff0d379",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567403359670,
+        "stop" : 1567403396665,
+        "duration" : 36995
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "644578b9202ac6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567405927421,
+          "stop" : 1567405966213,
+          "duration" : 38792
+        }
+      }, {
+        "uid" : "a82f410f33060f5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567405269294,
+          "stop" : 1567405305996,
+          "duration" : 36702
+        }
+      }, {
+        "uid" : "fdb34525e846fcb0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567404931528,
+          "stop" : 1567404968108,
+          "duration" : 36580
+        }
+      }, {
+        "uid" : "b021f659d194579b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567404402212,
+          "stop" : 1567404441383,
+          "duration" : 39171
+        }
+      }, {
+        "uid" : "57bc74e4409435f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567403359670,
+          "stop" : 1567403396665,
+          "duration" : 36995
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9a5519cd3e8cf43d.json",
+  "parameterValues" : [ "http://admin-coltoqa.panamaxil.com", "{CountryName=abcdeabcdeabcdeabcdeabcdeabcdeabcdeabcdeabcdexya, AbbreviationCode2=RT, DialingCode=848}", "chrome" ]
+}

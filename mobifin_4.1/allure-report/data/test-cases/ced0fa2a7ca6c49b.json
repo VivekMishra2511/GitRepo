@@ -1,0 +1,330 @@
+{
+  "uid" : "ced0fa2a7ca6c49b",
+  "name" : "Id: SortCountry, Author: Dishant Doshi",
+  "fullName" : "com.panamax.testcases.SettingsGISMasterCountry.sortCountry",
+  "historyId" : "7d2784e1be6f371b76489bfaf75f3854",
+  "time" : {
+    "start" : 1567406056053,
+    "stop" : 1567406094985,
+    "duration" : 38932
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initializeSetupInit",
+    "time" : {
+      "start" : 1567405892052,
+      "stop" : 1567405926929,
+      "duration" : 34877
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Sent text in UserName: admin.",
+      "time" : {
+        "start" : 1567405914664,
+        "stop" : 1567405914664,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Sent text in UserName: admin"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Sent text in userkey: Onlyqa@1234.",
+      "time" : {
+        "start" : 1567405915624,
+        "stop" : 1567405915624,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Sent text in userkey: Onlyqa@1234"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Clicked on Login.",
+      "time" : {
+        "start" : 1567405926929,
+        "stop" : 1567405926929,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on Login"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Clicked on fa fa-gear fs14.",
+      "time" : {
+        "start" : 1567406058441,
+        "stop" : 1567406058441,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on fa fa-gear fs14"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Clicked on btnSave.",
+      "time" : {
+        "start" : 1567406064130,
+        "stop" : 1567406064130,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on btnSave"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Clicked on Country Name.",
+      "time" : {
+        "start" : 1567406083414,
+        "stop" : 1567406083414,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "message",
+        "value" : "Clicked on Country Name"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1567406095005,
+      "stop" : 1567406095005,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "closeBrowser",
+    "time" : {
+      "start" : 1567406095022,
+      "stop" : 1567406096120,
+      "duration" : 1098
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "finalizeExecution",
+    "time" : {
+      "start" : 1567406096232,
+      "stop" : 1567406103180,
+      "duration" : 6948
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.panamax.testcases.SettingsGISMasterCountry"
+  }, {
+    "name" : "testClass",
+    "value" : "com.panamax.testcases.SettingsGISMasterCountry"
+  }, {
+    "name" : "testMethod",
+    "value" : "sortCountry"
+  }, {
+    "name" : "parentSuite",
+    "value" : "MobiFin 4.1.0 - Admin Portal - Settings Module"
+  }, {
+    "name" : "suite",
+    "value" : "MobiFin 4.1.0 - Settings"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.panamax.testcases.SettingsGISMasterCountry"
+  }, {
+    "name" : "host",
+    "value" : "PIL-AHD-LPT219"
+  }, {
+    "name" : "thread",
+    "value" : "4444@PIL-AHD-LPT219.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "appURL",
+    "value" : "http://admin-coltoqa.panamaxil.com"
+  }, {
+    "name" : "arg0",
+    "value" : "{ColumnName=Country Name, Order=Asc, UniqueColumn=Sr No}"
+  }, {
+    "name" : "browserType",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3ab4cbafa80227aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567405399171,
+        "stop" : 1567405435232,
+        "duration" : 36061
+      }
+    }, {
+      "uid" : "9cd553b2d9a502ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567404980033,
+        "stop" : 1567405017973,
+        "duration" : 37940
+      }
+    }, {
+      "uid" : "6de0c72aab09b542",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567404533915,
+        "stop" : 1567404573148,
+        "duration" : 39233
+      }
+    }, {
+      "uid" : "9889b494fe920c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1567403397370,
+        "stop" : 1567403433981,
+        "duration" : 36611
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "5d892556769fce77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567406056053,
+          "stop" : 1567406094985,
+          "duration" : 38932
+        }
+      }, {
+        "uid" : "644e48f3bbdf8aad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567405399171,
+          "stop" : 1567405435232,
+          "duration" : 36061
+        }
+      }, {
+        "uid" : "d28e9de540b68d08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567404980033,
+          "stop" : 1567405017973,
+          "duration" : 37940
+        }
+      }, {
+        "uid" : "96fbe2bc5556af4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567404533915,
+          "stop" : 1567404573148,
+          "duration" : 39233
+        }
+      }, {
+        "uid" : "ceb7f5102e3a693a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567403397370,
+          "stop" : 1567403433981,
+          "duration" : 36611
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ced0fa2a7ca6c49b.json",
+  "parameterValues" : [ "http://admin-coltoqa.panamaxil.com", "{ColumnName=Country Name, Order=Asc, UniqueColumn=Sr No}", "chrome" ]
+}

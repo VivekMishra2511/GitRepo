@@ -1,0 +1,280 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+
+<suite
+	name="MobiFin 4.1.0 - Admin Portal - Enterprise - Business And CRUD Single Data"
+	verbose="10" parallel="false" thread-count="1">
+
+	<listeners>
+		<listener
+			class-name='com.panamax.init.CustomizedEmailableReport' />
+	</listeners>
+	<parameter name="browserType" value="chrome" />
+	<parameter name="appURL"
+		value="https://admin-coltoqa.panamaxil.com/login.php" />
+
+	<test name="Mobifin 4.1.0 : Enterprise Add Profile">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseProfile">
+				<methods>
+					<include name="addProfile" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Enterprise Edit Profile">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseProfile">
+				<methods>
+					<include name="editProfile" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Enterprise Delete Profile">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseProfile">
+				<methods>
+					<include name="deleteProfile" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Enterprise Profile Sort">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseProfile">
+				<methods>
+					<include name="sortProfile" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : EnterpriseMatrix Edit">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseMatrix">
+				<methods>
+					<include name="editEnterpriseMatrix" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : EnterpriseMatrix Sort">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseMatrix">
+				<methods>
+					<include name="sortMatrix" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Enterprise Internal Threshold Add">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseThresholdInternal">
+				<methods>
+					<include name="addEnterpriseThresholdInternal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Enterprise Internal Threshold Edit">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseThresholdInternal">
+				<methods>
+					<include name="editEnterpriseThresholdInternal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Enterprise Internal Threshold Sort">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseThresholdInternal">
+				<methods>
+					<include name="sortInternalThreshold" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 :  Internal  Delete Enterprise Threshold Internal">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseThresholdInternal">
+				<methods>
+					<include name="deleteEnterpriseThresholdInternal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Mobifin 4.1.0 : Enterprise External Threshold Add">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseThresholdExternal">
+				<methods>
+					<include name="addEnterpriseThresholdExternal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Enterprise Threshold External Edit">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseThresholdExternal">
+				<methods>
+					<include name="editEnterpriseThresholdExternal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 :  Enterprise External Threshold Sort ">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseThresholdExternal">
+				<methods>
+					<include name="sortExternalThreshold" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 :  Internal  Delete Enterprise Threshold External">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseThresholdExternal">
+				<methods>
+					<include name="deleteEnterpriseThresholdExternal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="Mobifin 4.1.0 : Enterprise Add Onboarding">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseOnboarding">
+				<methods>
+					<include name="addOnboarding" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Enterprise Edit Onboarding">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseOnboarding">
+				<methods>
+					<include name="editOnboarding" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Enterprise Onboarding Sort">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseOnboarding">
+				<methods>
+					<include name="sortOnboarding" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Enterprise Delete Onboarding">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseOnboarding">
+				<methods>
+					<include name="deleteOnboarding" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Mobifin 4.1.0 : Enterprise Add OnboardingUser">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseOnboardingUser">
+				<methods>
+					<include name="addOnboardingUser" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Mobifin 4.1.0 : Enterprise Edit OnboardingUser">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseOnboardingUser">
+				<methods>
+					<include name="editOnboardingUser" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Enterprise Delete OnboardingUser">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseOnboardingUser">
+				<methods>
+					<include name="deleteOnboardingUser" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Enterprise OnboardingUser Sort">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseOnboardingUser">
+				<methods>
+					<include name="sortOnboardingUser" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test
+		name="Mobifin 4.1.0 : Enterprise Report Search TransactionDetail">
+		<classes>
+			<class
+				name="com.panamax.testcases.EnterpriseReportTransactionDetail" />
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 : Enterprise Report Search TransactionSummary">
+		<classes>
+			<class
+				name="com.panamax.testcases.EnterpriseReportTransactionSummary" />
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 : Enterprise Report Search TransactionPerformance">
+		<classes>
+			<class
+				name="com.panamax.testcases.EnterpriseReportTransactionPerformance" />
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 : Enterprise Report Search TransactionDrilldown">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseReportTransactionDrilldown" />
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 : Enterprise Report Search OnboardingDetail">
+		<classes>
+			<class
+				name="com.panamax.testcases.EnterpriseReportOnboardingDetail" />
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 : Enterprise Report Search Onboarding Summary">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseReportOnboardingSummary" />
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 : Enterprise Report Search Onboarding Performance">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseReportOnboardingPerformance" />
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 : Enterprise Report Search Onboarding Drilldown">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseReportOnboardingDrilldown" />
+		</classes>
+	</test>
+	<test
+		name="Mobifin 4.1.0 : Enterprise Report Search Activity Report">
+		<classes>
+			<class name="com.panamax.testcases.EnterpriseReportActivityReport" />
+		</classes>
+	</test>
+</suite>	

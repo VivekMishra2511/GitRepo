@@ -1,0 +1,57 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Id: DeleteAssistantOnboarding, Author: Dishant Doshi",
+    "uid" : "43fab80e4443875e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1567405847600,
+      "stop" : 1567405891769,
+      "duration" : 44169
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "http://admin-coltoqa.panamaxil.com", "{ParentProfile=AutomationTest, TreeName=Automation Agent Tree, ProfileName=Automation Agent Profile 1, Phone=9899769557, Email=aijii.ahohautomation@mailinator.com, Status=Active, FirstName=AutomationAhoh, LastName=AutomationAijii}", "chrome" ]
+  }, {
+    "name" : "Id: EditCountry, Author: Dishant Doshi",
+    "uid" : "9a5519cd3e8cf43d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1567405927421,
+      "stop" : 1567405966213,
+      "duration" : 38792
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "http://admin-coltoqa.panamaxil.com", "{CountryName=abcdeabcdeabcdeabcdeabcdeabcdeabcdeabcdeabcdexya, AbbreviationCode2=RT, DialingCode=848}", "chrome" ]
+  }, {
+    "name" : "Id: SortAssistantOnboarding, Author: Dishant Doshi",
+    "uid" : "4bb21a0525c3c581",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1567405966556,
+      "stop" : 1567406054680,
+      "duration" : 88124
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "http://admin-coltoqa.panamaxil.com", "{ParentProfile=AutomationTest, ColumnName=Assistant Name, Order=Asc, UniqueColumn=Sr No}", "chrome" ]
+  }, {
+    "name" : "Id: SortCountry, Author: Dishant Doshi",
+    "uid" : "ced0fa2a7ca6c49b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1567406056053,
+      "stop" : 1567406094985,
+      "duration" : 38932
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "http://admin-coltoqa.panamaxil.com", "{ColumnName=Country Name, Order=Asc, UniqueColumn=Sr No}", "chrome" ]
+  } ]
+}

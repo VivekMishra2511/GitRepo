@@ -1,0 +1,265 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+
+<suite
+	name="MobiFin 4.1.0 - Admin Portal - Merchant - Business And CRUD Single Data"
+	verbose="10" parallel="false" thread-count="1">
+
+	<listeners>
+		<listener class-name='com.panamax.init.CustomizedEmailableReport' />
+	</listeners>
+	<parameter name="browserType" value="chrome" />
+	<parameter name="appURL" value="https://admin-coltoqa.panamaxil.com" />
+
+	<test name="Mobifin 4.1.0 : Merchant Add Tree">
+		<classes>
+			<class name="com.panamax.testcases.MerchantTree">
+				<methods>
+					<include name="addTree" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Merchant Edit Tree">
+		<classes>
+			<class name="com.panamax.testcases.MerchantTree">
+				<methods>
+					<include name="editTree" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Merchant Delete Tree">
+		<classes>
+			<class name="com.panamax.testcases.MerchantTree">
+				<methods>
+					<include name="deleteTree" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Merchant - Sort Tree">
+		<classes>
+			<class name="com.panamax.testcases.MerchantTree">
+				<methods>
+					<include name="sortTree" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Merchant Add Profile">
+		<classes>
+			<class name="com.panamax.testcases.MerchantProfile">
+				<methods>
+					<include name="addProfile" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Merchant Edit Profile">
+		<classes>
+			<class name="com.panamax.testcases.MerchantProfile">
+				<methods>
+					<include name="editProfile" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Delete Merchant Profile">
+		<classes>
+			<class name="com.panamax.testcases.MerchantProfile">
+				<methods>
+					<include name="deleteProfile" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Merchant - Sort Profile">
+		<classes>
+			<class name="com.panamax.testcases.MerchantProfile">
+				<methods>
+					<include name="sortProfile" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 :  Edit MerchantMatrix">
+		<classes>
+			<class name="com.panamax.testcases.MerchantMatrix">
+				<methods>
+					<include name="editMerchantMatrix" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+		<test name="Mobifin 4.1.0 : Merchant - Sort Matrix">
+		<classes>
+			<class name="com.panamax.testcases.MerchantMatrix">
+				<methods>
+					<include name="sortMatrix" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Mobifin 4.1.0 :   Add Merchant Threshold Internal">
+		<classes>
+			<class name="com.panamax.testcases.MerchantThresholdInternal">
+				<methods>
+					<include name="addMerchantThresholdInternal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 :   Edit Merchant Threshold Internal">
+		<classes>
+			<class name="com.panamax.testcases.MerchantThresholdInternal">
+				<methods>
+					<include name="editMerchantThresholdInternal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Delete Merchant Threshold Internal">
+		<classes>
+			<class name="com.panamax.testcases.MerchantThresholdInternal">
+				<methods>
+					<include name="deleteMerchantThresholdInternal" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Merchant - Sort Internal Threshold">
+		<classes>
+			<class name="com.panamax.testcases.MerchantThresholdInternal">
+				<methods>
+					<include name="sortInternalThreshold" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Merchant Add Onboarding">
+		<classes>
+			<class name="com.panamax.testcases.MerchantOnboarding">
+				<methods>
+					<include name="addOnboarding" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Merchant Edit Onboarding">
+		<classes>
+			<class name="com.panamax.testcases.MerchantOnboarding">
+				<methods>
+					<include name="editOnboarding" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Delete Merchant Onboarding">
+		<classes>
+			<class name="com.panamax.testcases.MerchantOnboarding">
+				<methods>
+					<include name="deleteOnboarding" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Merchant - Sort Onboarding">
+		<classes>
+			<class name="com.panamax.testcases.MerchantOnboarding">
+				<methods>
+					<include name="sortOnboarding" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Merchant Add TerminalOnboarding">
+		<classes>
+			<class name="com.panamax.testcases.MerchantTerminalOnboarding">
+				<methods>
+					<include name="addTerminalOnboarding" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Merchant Edit TerminalOnboarding">
+		<classes>
+			<class name="com.panamax.testcases.MerchantTerminalOnboarding">
+				<methods>
+					<include name="editTerminalOnboarding" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Delete Merchant TerminalOnboarding">
+		<classes>
+			<class name="com.panamax.testcases.MerchantTerminalOnboarding">
+				<methods>
+					<include name="deleteTerminalOnboarding" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Merchant - Sort Terminal Onboarding">
+		<classes>
+			<class name="com.panamax.testcases.MerchantTerminalOnboarding">
+				<methods>
+					<include name="sortTerminalOnboarding" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+ <test name="Mobifin 4.1.0 : Merchant Report Search TransactionDetail">
+		<classes>
+			<class name="com.panamax.testcases.MerchantReportTransactionDetail" />
+		</classes>
+	</test> 
+	<test name="Mobifin 4.1.0 : Merchant Report Search TransactionSummary">
+		<classes>
+			<class name="com.panamax.testcases.MerchantReportTransactionSummary" />
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Merchant Report Search TransactionPerformance">
+		<classes>
+			<class name="com.panamax.testcases.MerchantReportTransactionPerformance" />
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Merchant Report Search TransactionDrilldown">
+		<classes>
+			<class name="com.panamax.testcases.MerchantReportTransactionDrilldown" />
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Merchant Report Search OnboardingDetail">
+		<classes>
+			<class name="com.panamax.testcases.MerchantReportOnboardingDetail" />
+		</classes>
+	</test> 
+	<test name="Mobifin 4.1.0 : Merchant Report Search TerminalOnboardingDetail">
+		<classes>
+			<class name="com.panamax.testcases.MerchantReportTerminalOnboardingDetail" />
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Merchant Report Search OnboardingSummary">
+		<classes>
+			<class name="com.panamax.testcases.MerchantReportOnboardingSummary" />
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Merchant Report Search OnboardingPerformance">
+		<classes>
+			<class name="com.panamax.testcases.MerchantReportOnboardingPerformance" />
+		</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Merchant Report Search OnboardingDrilldown">
+			<classes>
+				<class name="com.panamax.testcases.MerchantReportOnboardingDrilldown" />
+			</classes>
+	</test>
+	<test name="Mobifin 4.1.0 : Merchant Report Search ActivityReport">
+			<classes>
+				<class name="com.panamax.testcases.MerchantReportActivityReport" />
+			</classes>
+	</test> 
+</suite>	

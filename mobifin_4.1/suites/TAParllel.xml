@@ -1,0 +1,59 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+
+<suite name="MobiFin 4.1.0 - Admin Portal - Trust Account Module"
+	verbose="10" parallel="false" thread-count="1">
+
+	<listeners>
+		<listener class-name='com.panamax.init.CustomizedEmailableReport' />
+	</listeners>
+	<parameter name="browserType" value="chrome" />
+	<parameter name="appURL" value="http://admin-coltoqa.panamaxil.com" />
+
+	<test name="MobiFin 4.1.0 - Trust Account">
+		<classes>
+			<class name="com.panamax.testcases.TABank">
+				<methods>
+					<include name="addTABank" />
+					<include name="editTABank" />
+					<include name="deleteTABank" />
+					<include name="sortBank" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.TAUser">
+				<methods>
+					<include name="addTAUser" />
+					<include name="editTAUser" />
+					<include name="deleteTAUser" />
+					<include name="sortTAUser" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.TrustAccountReportTransactionDetail">
+				<methods>
+					<include name="searchTransactionDetailReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.TrustAccountReportTransactionSummary">
+				<methods>
+					<include name="searchTransactionSummaryReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.TrustAccountReportEmoneyDetail">
+				<methods>
+					<include name="searchEmoneyDetailReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.TrustAccountReportEmoneySummary">
+				<methods>
+					<include name="searchEmoneySummaryReport" />
+				</methods>
+			</class>
+			<class name="com.panamax.testcases.TrustAccountReportActivityReport">
+				<methods>
+					<include name="searchActivityReport" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
+	
